@@ -93,8 +93,8 @@ $result = $conn->query($sql);
         }
         $conn->close();
         ?>
-  
-
+  <hr>
+  <?php include 'navbar.php' ?>
 </body>
 
 </html>
