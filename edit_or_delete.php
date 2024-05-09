@@ -32,7 +32,7 @@
         .button-container button:hover {
             background-color: #0056b3;
         }
-        /*  */
+    
         .card-container {
             display: flex;
             justify-content: center;
