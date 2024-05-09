@@ -2,7 +2,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "";
-$database = "twitter_clone";
+$database = "uluminati";
 
 $conn = new mysqli($servername, $username, $password, $database);
 

@@ -206,7 +206,7 @@ $posts_result = $conn->query($sql_posts);
         }
 
         /* card css */
-        .card {
+        .card3 {
             width: auto;
             background-color: #fff;
             border-radius: 23px;
@@ -263,8 +263,8 @@ $posts_result = $conn->query($sql_posts);
     </style>
 </head>
 
-<body>
-
+<body style="background: #AED2FF;">
+<?php include 'top_navbar.php'?>
     <div class="container">
         <!--  -->
         <div class="card1">
@@ -293,12 +293,14 @@ $posts_result = $conn->query($sql_posts);
             </div>
             <div class="count-box">
                 <p>500</p>
-                <span>Following</span>
+                <span>Liks</span>
             </div>
-            <div class="count-box">
+            <!-- <div class="count-box">
                 <p>1000</p>
                 <span>Likes</span>
-            </div>
+            </div> -->
+            <?php include 'modal.php' ?>
+
         </div>
         <!--  -->
         <div class="post-box">
@@ -312,7 +314,7 @@ $posts_result = $conn->query($sql_posts);
         <?php while ($post = $posts_result->fetch_assoc()) : ?>
             <div class="post">
                 <!--  -->
-                <div class="card">
+                <div class="card3">
                     <img src="imgfile/manprofile.png" alt="Profile Photo" class="profile-photo">
                     <div class="post-content">
                         <p><?php echo $post['post_content']; ?></p>
@@ -323,8 +325,8 @@ $posts_result = $conn->query($sql_posts);
             </div>
         <?php endwhile; ?>
         <!-- </div> -->
-<hr>
-        <?php include 'navbar.php' ?>
+        <hr>
+        <?php include 'bottom_navbar.php' ?>
 
 </body>
 
