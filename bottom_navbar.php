@@ -27,7 +27,7 @@
     <hr>
     <nav class="navbar fixed-bottom navbar-dark bg-dark">
         <div class="container-fluid">
-            <a href="#">Home</a>
+            <a href="/uluminati/index.php">Home</a>
             <a href="#">Trand</a>
             <a href="#">Profile</a>
 
