@@ -37,7 +37,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <link rel="stylesheet" href="css/styleforgooglesignbtn.css">
 
 
-    <title>LogIn</title>
+    <title>Signup</title>
 </head>
 
 <body>
@@ -67,7 +67,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                             <input type="text" class="form-control" placeholder="Email Id" maxlength="12" name="email" maxlength="12" id="email" aria-describedby="" required>
                         </div>
                         <div class="form-group mt-3">
-                            <input type="password" placeholder="Create Password" class="form-control" name="password" id="password" required>
+                            <input type="password" placeholder="Create Password" class="form-control" name="password" id="password" required><br>
+                            <input type="checkbox" onclick="myFunction()"> Click To see the password
                         </div>
                         <button type="submit" class="btn btn-primary mt-4" style="border-radius: 20px;"><b>SignUp</b></button>
                     </form>
